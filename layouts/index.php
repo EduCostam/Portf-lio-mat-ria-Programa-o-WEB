@@ -1,4 +1,4 @@
-<?php include('layouts/header.php'); ?>
+<?php include(__DIR__ . '/layouts/header.php'); ?>
 
 <div class="container-fluid main-container d-flex align-items-cemter justify-content-center" style="min-height: 100vh; background-color: #f8f9fa;">
     <div class="content-wrapper text-center p-5" style="background-color: white; border-radius: 15px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); max-width: 400px;">
