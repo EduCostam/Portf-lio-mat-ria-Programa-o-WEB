@@ -1,0 +1,19 @@
+{
+    "name": "seu-usuario/seu-projeto",
+    "description": "Projeto para consulta de signo",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
